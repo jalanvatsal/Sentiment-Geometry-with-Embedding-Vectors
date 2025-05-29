@@ -75,6 +75,7 @@ The following steps outline the experimental process:
 Similar meaning, **dramatically different emotional tone**
 
 ---
+
 ## Reproduce Results
 
 1. **Get OpenAI API Key**  
@@ -88,7 +89,8 @@ Similar meaning, **dramatically different emotional tone**
 
 1. **Run Colab**  
    Click on the Colab Badge at the top of this README. Load in your locally saved embeddings file and enjoy!
-
+   (Note: To run the Colab with the default curated set of sentences, download embeddings.json and upload it directly in the Colab notebook)
+   
 ---
 
 ## 🛠 Tech Stack
