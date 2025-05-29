@@ -1,6 +1,4 @@
-# Sentiment-Geometry-with-Embedding-Vectors
-
-### *Exploring Vector Arithmetic for Emotion Transformation using LLM Embeddings*
+### *Sentiment-Geometry-with-Embedding-Vectors*
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo/blob/main/sentiment_shift_experiment.ipynb)
 
@@ -18,7 +16,7 @@ Using PCA, nearest neighbor search, and embedding arithmetic, this notebook expl
 
 ---
 
-## 🧠 Core Ideas
+## Core Ideas
 
 - **Sentiment Direction Construction:**  
   Compute average embeddings of positive and negative sentences.  
@@ -39,7 +37,7 @@ Using PCA, nearest neighbor search, and embedding arithmetic, this notebook expl
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 The following steps outline the experimental process:
 
@@ -65,7 +63,7 @@ The following steps outline the experimental process:
 
 ---
 
-## 📊 Visual Results
+## Results Summary
 
 - ✅ Clear PCA clustering between negative, neutral, and positive sentence embeddings
 - ✅ Nearest-neighbor similarity confirms sentiment shift post vector transformation
@@ -74,13 +72,14 @@ The following steps outline the experimental process:
 *Example:*  
 **Input:** `"Everything is falling apart."`  
 **Shifted:** `"Everything feels like it's falling into place."`  
-🧠 Similar meaning, **dramatically different emotional tone**
+Similar meaning, **dramatically different emotional tone**
 
 ---
 
 ## 🛠 Tech Stack
 
 - **OpenAI Embeddings API**
-- **Scikit-learn** for PCA and nearest-neighbor search
-- **Matplotlib / Plotly** for interactive visualizations
-- **Google Colab** for reproducible, cloud-executed experimentation
+- **Scikit-learn** for PCA
+- **NumPy** for Nearest-Neighbour Search
+- **Matplotlib / Plotly** for Interactive Visualizations
+- **Google Colab** for Reproducible, Cloud-Executed Experimentation
