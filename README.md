@@ -39,6 +39,32 @@ Using PCA, nearest neighbor search, and embedding arithmetic, this notebook expl
 
 ---
 
+## 🔬 Methodology
+
+The following steps outline the experimental process:
+
+1. **Dataset Preparation & Embedding Generation**  
+   A curated dataset of short sentences was labeled as **positive**, **negative**, or **neutral**. Using OpenAI's `text-embedding-3-small`, each sentence was transformed into a high-dimensional vector embedding.
+
+2. **Dimensionality Reduction & Visualization**  
+   To visualize the structure of sentiment in embedding space, **Principal Component Analysis (PCA)** was applied, reducing vectors to 2D and 3D. These projections revealed meaningful clustering by sentiment.
+
+3. **Constructing a Sentiment Direction**  
+   The average vectors of positive and negative sentences were computed, and their difference defined a **"sentiment direction" vector**:  
+   `sentiment_direction = positive_avg - negative_avg`  
+   This vector serves as a directional axis from negative to positive sentiment within the latent space.
+
+4. **Shifting Sentences in Embedding Space**  
+   A negative sentence vector was shifted along the sentiment direction. This vector arithmetic was designed to simulate a transformation toward more positive sentiment.
+
+5. **Semantic Evaluation via Nearest Neighbors**  
+   The shifted vector was compared against each original sentence embeddings using **cosine similarity** to identify its closest match. This step assessed whether the sentiment shift produced semantically and emotionally meaningful results with respect to the transformation.
+
+6. **Analysis & Findings**  
+   Qualitative analysis showed that the shifted vector mapped closely to a sentence with a clearly more positive tone.
+
+---
+
 ## 📊 Visual Results
 
 - ✅ Clear PCA clustering between negative, neutral, and positive sentence embeddings
