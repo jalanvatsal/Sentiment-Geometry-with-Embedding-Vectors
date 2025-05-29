@@ -75,6 +75,21 @@ The following steps outline the experimental process:
 Similar meaning, **dramatically different emotional tone**
 
 ---
+## Reproduce Results
+
+1. **Get OpenAI API Key**  
+   Sign up for an account at OpenAI. Generate an API key from your account dashboard. Paste the key into `client = OpenAI(api_key="")` in generate_embeddings.py.
+
+2. **Customize Input Sentences**  
+   Add your custom set of sentences with positive, negtaive, and neutral sentiment into the positive_sentences, negative_sentences, and neutral_sentences lists in generate_embeddings.py.
+
+3. **Replace Path**  
+   To save your generated embeddings file locally, paste the path of your desired save location into the filename argument `save_embeddings_dict(all_embeddings, filename="/Users/vatsaljalan/Desktop/Uni/final/Math 118/embeddings.json")` in generate_embeddings.py.
+
+1. **Run Colab**  
+   Click on the Colab Badge at the top of this README. Load in your locally saved embeddings file and enjoy!
+
+---
 
 ## 🛠 Tech Stack
 
