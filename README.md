@@ -56,7 +56,7 @@ The following steps outline the experimental process:
    A negative sentence vector was shifted along the sentiment direction. This vector arithmetic was designed to simulate a transformation toward more positive sentiment.
 
 5. **Semantic Evaluation via Nearest Neighbors**  
-   The shifted vector was compared against each original sentence embeddings using **cosine similarity** to identify its closest match. This step assessed whether the sentiment shift produced semantically and emotionally meaningful results with respect to the transformation.
+   The shifted vector was compared against each original sentence embedding using **cosine similarity** to identify its closest match. This step assessed whether the sentiment shift produced semantically and emotionally meaningful results with respect to the transformation.
 
 6. **Analysis & Findings**  
    Qualitative analysis showed that the shifted vector mapped closely to a sentence with a clearly more positive tone.
