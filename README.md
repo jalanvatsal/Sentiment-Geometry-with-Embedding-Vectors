@@ -1,6 +1,6 @@
 ### *Sentiment-Geometry-with-Embedding-Vectors*
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo/blob/main/sentiment_shift_experiment.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jalanvatsal/sentiment-geometry/blob/main/Sentiment_Geometry_with_Embedding_Vectors.ipynb)
 
 ---
 
