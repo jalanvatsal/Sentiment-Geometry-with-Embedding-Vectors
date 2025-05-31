@@ -8,7 +8,6 @@
 
 This project investigates whether **sentiment can be manipulated through vector arithmetic** in the latent embedding space of GPT-based language models.
 
-We ask:  
 > **Can emotion be treated as a direction in embedding space?**  
 > **Can a sentence be shifted from negativity to positivity like a coordinate shift?**
 
@@ -99,4 +98,4 @@ Similar meaning, **dramatically different emotional tone**
 - **Scikit-learn** for PCA
 - **NumPy** for Nearest-Neighbour Search
 - **Matplotlib / Plotly** for Interactive Visualizations
-- **Google Colab** for Reproducible, Cloud-Executed Experimentation
+- **Google Colab** for Reproducible Experimentation
