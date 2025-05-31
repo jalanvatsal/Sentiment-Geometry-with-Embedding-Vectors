@@ -6,12 +6,14 @@
 
 ## Overview
 
-This project investigates whether **sentiment can be manipulated through vector arithmetic** in the latent embedding space of GPT-based language models.
+This project explores the possibility of controlling emotional tone in language by modeling sentiment as a vector direction within the latent embedding space of GPT-based language models. Inspired by Daniel Jurafsky and James H. Martin’s work on lexical and vector semantics, this work investigates two key questions:
 
-> **Can emotion be treated as a direction in embedding space?**  
-> **Can a sentence be shifted from negativity to positivity like a coordinate shift?**
+> Can emotion be modeled as a navigable axis in embedding space?
+> Can we shift a sentence from negativity to positivity through simple coordinate transformations?
 
-Using PCA, nearest neighbor search, and embedding arithmetic, this notebook explores if emotional tone can be predictably adjusted from negativeness to positiveness through math on high-dimensional sentence embeddings.
+Using principal component analysis (PCA), nearest neighbor search, and vector arithmetic, the notebook investigates whether sentiment can be predictably and meaningfully transformed in high-dimensional sentence embeddings.
+
+At its core, this work lies at the intersection of cognitive theory, machine learning, and natural language processing, probing how abstract human emotions are encoded in artificial representations. It aims to bridge intuitive concepts of emotion and meaning with mathematical operations in latent space. By approaching sentiment as a spatial and computational phenomenon, the project offers a small but meaningful step in understanding how large language models represent and adjust emotional tone.
 
 ---
 
@@ -81,7 +83,7 @@ Similar meaning, **dramatically different emotional tone**
    Sign up for an account at OpenAI. Generate an API key from your account dashboard. Paste the key into `client = OpenAI(api_key="")` in generate_embeddings.py.
 
 2. **Customize Input Sentences**  
-   Add your custom set of sentences with positive, negtaive, and neutral sentiment into the positive_sentences, negative_sentences, and neutral_sentences lists in generate_embeddings.py.
+   Add your custom set of sentences with positive, negative, and neutral sentiment into the positive_sentences, negative_sentences, and neutral_sentences lists in generate_embeddings.py.
 
 3. **Replace Path**  
    To save your generated embeddings file locally, paste the path of your desired save location into the filename argument `save_embeddings_dict(all_embeddings, filename="/Users/vatsaljalan/Desktop/Uni/final/Math 118/embeddings.json")` in generate_embeddings.py.
